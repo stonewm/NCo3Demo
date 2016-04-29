@@ -1,0 +1,13 @@
+D:\我的笔记\Notes\SAP笔记\SAP接口编程\03_Nco_3.0\Nco3Demo\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+D:\我的笔记\Notes\SAP笔记\SAP接口编程\03_Nco_3.0\Nco3Demo\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+D:\我的笔记\Notes\SAP笔记\SAP接口编程\03_Nco_3.0\Nco3Demo\UnitTestProject1\bin\Debug\Nco01.dll
+D:\我的笔记\Notes\SAP笔记\SAP接口编程\03_Nco_3.0\Nco3Demo\UnitTestProject1\bin\Debug\sapnco.dll
+D:\我的笔记\Notes\SAP笔记\SAP接口编程\03_Nco_3.0\Nco3Demo\UnitTestProject1\bin\Debug\sapnco_utils.dll
+D:\我的笔记\Notes\SAP笔记\SAP接口编程\03_Nco_3.0\Nco3Demo\UnitTestProject1\bin\Debug\Nco01.pdb
+D:\我的笔记\Notes\SAP笔记\SAP接口编程\03_Nco_3.0\Nco3Demo\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+D:\我的笔记\Notes\SAP笔记\SAP接口编程\03_Nco_3.0\Nco3Demo\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+D:\我的笔记\Notes\SAP笔记\SAP接口编程\03_Nco_3.0\Nco3Demo\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
+D:\我的笔记\Notes\SAP笔记\SAP接口编程\03_Nco_3.0\Nco3Demo\UnitTestProject1\bin\Debug\Nco02.dll
+D:\我的笔记\Notes\SAP笔记\SAP接口编程\03_Nco_3.0\Nco3Demo\UnitTestProject1\bin\Debug\Nco02.pdb
+D:\我的笔记\Notes\SAP笔记\SAP接口编程\03_Nco_3.0\Nco3Demo\UnitTestProject1\bin\Debug\NCo03.dll
+D:\我的笔记\Notes\SAP笔记\SAP接口编程\03_Nco_3.0\Nco3Demo\UnitTestProject1\bin\Debug\NCo03.pdb

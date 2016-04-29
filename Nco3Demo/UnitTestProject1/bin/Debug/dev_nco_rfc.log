@@ -1,0 +1,467 @@
+**** Log file opened by process 8308 at 2016-03-13 22:08:33 (UTC+08:00 中国标准时间)
+
+SAP .NET Connector 3.0 with file version 3.0.13.0 running on 32-bit .NET Framework 4.0.30319.18047
+Program: D:\PROGRAMS\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\TESTWINDOW\vstest.executionengine.x86.exe
+Working directory: D:\我的笔记\Notes\SAP笔记\SAP接口编程\03_Nco_3.0\Nco3Demo\UnitTestProject1\bin\Debug
+Operating system: Windows 7 Ultimate 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 525
+Hostname: WANG-PC, IP address: 192.168.233.1, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2016-03-13 22:08:33.233 [Thread 10]
+SAP.Middleware.Connector.RfcInvalidParameterException: No destination name provided - specify the parameter NAME
+   在 SAP.Middleware.Connector.RfcDestinationManager.GetDestination(RfcConfigParameters parameters)
+**** Log file opened by process 9044 at 2016-03-13 22:09:50 (UTC+08:00 中国标准时间)
+
+SAP .NET Connector 3.0 with file version 3.0.13.0 running on 32-bit .NET Framework 4.0.30319.18047
+Program: D:\PROGRAMS\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\TESTWINDOW\vstest.executionengine.x86.exe
+Working directory: D:\我的笔记\Notes\SAP笔记\SAP接口编程\03_Nco_3.0\Nco3Demo\UnitTestProject1\bin\Debug
+Operating system: Windows 7 Ultimate 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 525
+Hostname: WANG-PC, IP address: 192.168.233.1, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2016-03-13 22:09:50.697 [Thread 10]
+SAP.Middleware.Connector.RfcInvalidParameterException: No destination name provided - specify the parameter NAME
+   在 SAP.Middleware.Connector.RfcDestinationManager.GetDestination(RfcConfigParameters parameters)
+**** Log file opened by process 6016 at 2016-03-13 22:11:08 (UTC+08:00 中国标准时间)
+
+SAP .NET Connector 3.0 with file version 3.0.13.0 running on 32-bit .NET Framework 4.0.30319.18047
+Program: D:\PROGRAMS\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\TESTWINDOW\vstest.executionengine.x86.exe
+Working directory: D:\我的笔记\Notes\SAP笔记\SAP接口编程\03_Nco_3.0\Nco3Demo\UnitTestProject1\bin\Debug
+Operating system: Windows 7 Ultimate 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 525
+Hostname: WANG-PC, IP address: 192.168.233.1, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2016-03-13 22:11:08.647 [Thread 10]
+SAP.Middleware.Connector.RfcInvalidParameterException: No destination name provided - specify the parameter NAME
+   在 SAP.Middleware.Connector.RfcDestinationManager.GetDestination(RfcConfigParameters parameters)
+**** Log file opened by process 4940 at 2016-03-13 22:28:23 (UTC+08:00 中国标准时间)
+
+SAP .NET Connector 3.0 with file version 3.0.13.0 running on 32-bit .NET Framework 4.0.30319.18047
+Program: D:\PROGRAMS\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\TESTWINDOW\vstest.executionengine.x86.exe
+Working directory: D:\我的笔记\Notes\SAP笔记\SAP接口编程\03_Nco_3.0\Nco3Demo\UnitTestProject1\bin\Debug
+Operating system: Windows 7 Ultimate 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 525
+Hostname: WANG-PC, IP address: 192.168.233.1, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2016-03-13 22:28:23.532 [Thread 10]
+Failure to create pool for destination ECC (ORIGINAL) [NAME=ECC ASHOST=192.168.65.100 SYSNR=00 SYSID=D01 USER=STONE PASSWD=******** CLIENT=001 LANG=EN POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.65.100:3300' not reached
+TIME        Sun Mar 13 22:28:23 2016
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3285
+DETAIL      NiPConnect2: 192.168.65.100:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+   在 SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2016-03-13 22:28:23.536 [Thread 10]
+[NAME=ECC ASHOST=192.168.65.100 SYSNR=00 SYSID=D01 USER=STONE PASSWD=******** CLIENT=001 LANG=EN POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.65.100:3300' not reached
+TIME        Sun Mar 13 22:28:23 2016
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3285
+DETAIL      NiPConnect2: 192.168.65.100:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+   在 SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   在 SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   在 SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 7824 at 2016-03-14 21:22:49 (UTC+08:00 中国标准时间)
+
+SAP .NET Connector 3.0 with file version 3.0.13.0 running on 32-bit .NET Framework 4.0.30319.18047
+Program: D:\PROGRAMS\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\TESTWINDOW\vstest.executionengine.x86.exe
+Working directory: D:\我的笔记\Notes\SAP笔记\SAP接口编程\03_Nco_3.0\Nco3Demo\UnitTestProject1\bin\Debug
+Operating system: Windows 7 Ultimate 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 525
+Hostname: WANG-PC, IP address: 192.168.233.1, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2016-03-14 21:22:49.813 [Thread 10]
+Failure to create pool for destination ECC (ORIGINAL) [NAME=ECC ASHOST=192.168.65.100 SYSNR=00 SYSID=D01 USER=STONE PASSWD=******** CLIENT=001 LANG=EN POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.65.100:3300' not reached
+TIME        Mon Mar 14 21:22:49 2016
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3285
+DETAIL      NiPConnect2: 192.168.65.100:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   在 SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2016-03-14 21:22:49.818 [Thread 10]
+[NAME=ECC ASHOST=192.168.65.100 SYSNR=00 SYSID=D01 USER=STONE PASSWD=******** CLIENT=001 LANG=EN POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.65.100:3300' not reached
+TIME        Mon Mar 14 21:22:49 2016
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3285
+DETAIL      NiPConnect2: 192.168.65.100:3300
+SYSTEM CALL connect
+ERRNO       10061
+ERRNO TEXT  WSAECONNREFUSED: Connection refused
+COUNTER     2
+
+   在 SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   在 SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   在 SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 7824 at 2016-03-14 21:46:51 (UTC+08:00 中国标准时间)
+
+SAP .NET Connector 3.0 with file version 3.0.13.0 running on 32-bit .NET Framework 4.0.30319.18047
+Program: D:\PROGRAMS\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\TESTWINDOW\vstest.executionengine.x86.exe
+Working directory: D:\我的笔记\Notes\SAP笔记\SAP接口编程\03_Nco_3.0\Nco3Demo\UnitTestProject1\bin\Debug
+Operating system: Windows 7 Ultimate 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 525
+Hostname: WANG-PC, IP address: 192.168.233.1, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2016-03-14 21:46:51.725 [Thread 5]
+Failure to create pool for destination ECC (ORIGINAL) [ASHOST=192.168.65.100 SYSNR=00 SYSID=D01 USER=STONE PASSWD=******** CLIENT=001 LANG=EN POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=ECC]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.65.100:3300' not reached
+TIME        Mon Mar 14 21:46:51 2016
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3285
+DETAIL      NiPConnect2: 192.168.65.100:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+   在 SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2016-03-14 21:46:51.725 [Thread 5]
+[ASHOST=192.168.65.100 SYSNR=00 SYSID=D01 USER=STONE PASSWD=******** CLIENT=001 LANG=EN POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30 NAME=ECC]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.65.100:3300' not reached
+TIME        Mon Mar 14 21:46:51 2016
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3285
+DETAIL      NiPConnect2: 192.168.65.100:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+   在 SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   在 SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   在 SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcDestination.Ping()
+**** Log file opened by process 7472 at 2016-03-28 23:41:56 (UTC+08:00 中国标准时间)
+
+SAP .NET Connector 3.0 with file version 3.0.13.0 running on 32-bit .NET Framework 4.0.30319.18047
+Program: D:\PROGRAMS\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\TESTWINDOW\vstest.executionengine.x86.exe
+Working directory: D:\我的笔记\Notes\SAP笔记\SAP接口编程\03_Nco_3.0\Nco3Demo\UnitTestProject1\bin\Debug
+Operating system: Windows 7 Ultimate 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 525
+Hostname: WANG-PC, IP address: 192.168.233.1, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2016-03-28 23:41:57.131 [Thread 16]
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 SAP.Middleware.Connector.RfcContainerMetadata`1.get_Item(Int32 index)
+>> Error entry 2016-03-28 23:41:57.150 [Thread 16]
+SAP.Middleware.Connector.RfcInvalidParameterException: Access of field's type metadata via index=1 (TABLE [STRUCTURE RFC_DB_OPT]) failed ---> SAP.Middleware.Connector.RfcInvalidParameterException: Element metadata access using index=1 on metadata of STRUCTURE RFC_DB_OPT failed ---> System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 SAP.Middleware.Connector.RfcContainerMetadata`1.get_Item(Int32 index)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 SAP.Middleware.Connector.RfcContainerMetadata`1.get_Item(Int32 index)
+   在 SAP.Middleware.Connector.RfcTable.TypeMetadataAt(Int32 index)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 SAP.Middleware.Connector.RfcTable.TypeMetadataAt(Int32 index)
+   在 SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+**** Log file opened by process 5516 at 2016-03-28 23:45:04 (UTC+08:00 中国标准时间)
+
+SAP .NET Connector 3.0 with file version 3.0.13.0 running on 32-bit .NET Framework 4.0.30319.18047
+Program: D:\PROGRAMS\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\TESTWINDOW\vstest.executionengine.x86.exe
+Working directory: D:\我的笔记\Notes\SAP笔记\SAP接口编程\03_Nco_3.0\Nco3Demo\UnitTestProject1\bin\Debug
+Operating system: Windows 7 Ultimate 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 525
+Hostname: WANG-PC, IP address: 192.168.233.1, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2016-03-28 23:45:04.692 [Thread 10]
+System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 SAP.Middleware.Connector.RfcContainerMetadata`1.get_Item(Int32 index)
+>> Error entry 2016-03-28 23:45:04.718 [Thread 10]
+SAP.Middleware.Connector.RfcInvalidParameterException: Access of field's type metadata via index=1 (TABLE [STRUCTURE RFC_DB_OPT]) failed ---> SAP.Middleware.Connector.RfcInvalidParameterException: Element metadata access using index=1 on metadata of STRUCTURE RFC_DB_OPT failed ---> System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 SAP.Middleware.Connector.RfcContainerMetadata`1.get_Item(Int32 index)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 SAP.Middleware.Connector.RfcContainerMetadata`1.get_Item(Int32 index)
+   在 SAP.Middleware.Connector.RfcTable.TypeMetadataAt(Int32 index)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 SAP.Middleware.Connector.RfcTable.TypeMetadataAt(Int32 index)
+   在 SAP.Middleware.Connector.RfcDataContainer`1.SetValue(Int32 index, String value)
+**** Log file opened by process 1424 at 2016-03-31 23:31:55 (UTC+08:00 中国标准时间)
+
+SAP .NET Connector 3.0 with file version 3.0.13.0 running on 32-bit .NET Framework 4.0.30319.18047
+Program: D:\PROGRAMS\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\TESTWINDOW\vstest.executionengine.x86.exe
+Working directory: D:\我的笔记\Notes\SAP笔记\SAP接口编程\03_Nco_3.0\Nco3Demo\UnitTestProject1\bin\Debug
+Operating system: Windows 7 Ultimate 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 525
+Hostname: WANG-PC, IP address: 192.168.233.1, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2016-03-31 23:31:55.423 [Thread 10]
+[NAME=ECC ASHOST=192.168.65.100 SYSNR=00 SYSID=D01 USER=STONE PASSWD=******** CLIENT=001 LANG=EN POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30]
+SAP.Middleware.Connector.RfcAbapRuntimeException: The function module "ZGET_COUNTER" cannot be used for 'remote' calls.
+   在 SAP.Middleware.Connector.RfcConnection.ThrowRfcErrorMsg()
+   在 SAP.Middleware.Connector.RfcConnection.ReadBytes(Byte* buffer, Int32 count)
+   在 SAP.Middleware.Connector.RfcConnection.ReadRfcIDBegin(Int32& length)
+   在 SAP.Middleware.Connector.RfcConnection.ReadUpTo(RFCGET readState, RfcFunction function, RFCID toRid)
+   在 SAP.Middleware.Connector.RfcConnection.RfcReceive(RfcFunction function)
+   在 SAP.Middleware.Connector.RfcFunction.RfcDeserialize(RfcConnection conn, IRfcIOStream stream)
+   在 SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn, IRfcIOStream stream, RFCID rid)
+   在 SAP.Middleware.Connector.RfcFunction.RfcCallReceive(RfcConnection conn)
+   在 SAP.Middleware.Connector.RfcFunction.Invoke(RfcDestination destination)
+**** Log file opened by process 7664 at 2016-04-04 22:17:40 (UTC+08:00 中国标准时间)
+
+SAP .NET Connector 3.0 with file version 3.0.13.0 running on 32-bit .NET Framework 4.0.30319.18047
+Program: D:\PROGRAMS\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\TESTWINDOW\vstest.executionengine.x86.exe
+Working directory: D:\我的笔记\Notes\SAP笔记\SAP接口编程\03_Nco_3.0\Nco3Demo\UnitTestProject1\bin\Debug
+Operating system: Windows 7 Ultimate 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 525
+Hostname: WANG-PC, IP address: 192.168.233.1, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2016-04-04 22:17:40.108 [Thread 10]
+Failure to create pool for destination ECC (ORIGINAL) [NAME=ECC ASHOST=192.168.65.100 SYSNR=00 SYSID=D01 USER=STONE PASSWD=******** CLIENT=001 LANG=EN POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.65.100:3300' not reached
+TIME        Mon Apr 04 22:17:40 2016
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3285
+DETAIL      NiPConnect2: 192.168.65.100:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+   在 SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2016-04-04 22:17:40.113 [Thread 10]
+[NAME=ECC ASHOST=192.168.65.100 SYSNR=00 SYSID=D01 USER=STONE PASSWD=******** CLIENT=001 LANG=EN POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.65.100:3300' not reached
+TIME        Mon Apr 04 22:17:40 2016
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3285
+DETAIL      NiPConnect2: 192.168.65.100:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+   在 SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   在 SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   在 SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+**** Log file opened by process 7664 at 2016-04-04 22:22:38 (UTC+08:00 中国标准时间)
+
+SAP .NET Connector 3.0 with file version 3.0.13.0 running on 32-bit .NET Framework 4.0.30319.18047
+Program: D:\PROGRAMS\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\TESTWINDOW\vstest.executionengine.x86.exe
+Working directory: D:\我的笔记\Notes\SAP笔记\SAP接口编程\03_Nco_3.0\Nco3Demo\UnitTestProject1\bin\Debug
+Operating system: Windows 7 Ultimate 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 525
+Hostname: WANG-PC, IP address: 192.168.233.1, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2016-04-04 22:22:38.066 [Thread 7]
+Failure to create pool for destination ECC (ORIGINAL) [NAME=ECC ASHOST=192.168.65.100 SYSNR=00 SYSID=D01 USER=STONE PASSWD=******** CLIENT=001 LANG=EN POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.65.100:3300' not reached
+TIME        Mon Apr 04 22:22:38 2016
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3285
+DETAIL      NiPConnect2: 192.168.65.100:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+   在 SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2016-04-04 22:22:38.067 [Thread 7]
+[NAME=ECC ASHOST=192.168.65.100 SYSNR=00 SYSID=D01 USER=STONE PASSWD=******** CLIENT=001 LANG=EN POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.65.100:3300' not reached
+TIME        Mon Apr 04 22:22:38 2016
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3285
+DETAIL      NiPConnect2: 192.168.65.100:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+   在 SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   在 SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   在 SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
+**** Log file opened by process 7664 at 2016-04-04 22:24:04 (UTC+08:00 中国标准时间)
+
+SAP .NET Connector 3.0 with file version 3.0.13.0 running on 32-bit .NET Framework 4.0.30319.18047
+Program: D:\PROGRAMS\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\TESTWINDOW\vstest.executionengine.x86.exe
+Working directory: D:\我的笔记\Notes\SAP笔记\SAP接口编程\03_Nco_3.0\Nco3Demo\UnitTestProject1\bin\Debug
+Operating system: Windows 7 Ultimate 64-bit Service Pack 1
+Processor: 4x AMD64 (or x64)
+SAP release: 720, Kernel release: 720, Kernel patch level: 525
+Hostname: WANG-PC, IP address: 192.168.233.1, IP_v6 address: 
+
+Default trace level: None
+
+>> Error entry 2016-04-04 22:24:04.216 [Thread 14]
+Failure to create pool for destination ECC (ORIGINAL) [NAME=ECC ASHOST=192.168.65.100 SYSNR=00 SYSID=D01 USER=STONE PASSWD=******** CLIENT=001 LANG=EN POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.65.100:3300' not reached
+TIME        Mon Apr 04 22:24:04 2016
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3285
+DETAIL      NiPConnect2: 192.168.65.100:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+   在 SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+>> Error entry 2016-04-04 22:24:04.217 [Thread 14]
+[NAME=ECC ASHOST=192.168.65.100 SYSNR=00 SYSID=D01 USER=STONE PASSWD=******** CLIENT=001 LANG=EN POOL_SIZE=5 MAX_POOL_SIZE=10 IDLE_TIMEOUT=30]
+SAP.Middleware.Connector.RfcCommunicationException: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       partner '192.168.65.100:3300' not reached
+TIME        Mon Apr 04 22:24:04 2016
+RELEASE     720
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -10
+MODULE      nixxi.cpp
+LINE        3285
+DETAIL      NiPConnect2: 192.168.65.100:3300
+SYSTEM CALL connect
+ERRNO       10060
+ERRNO TEXT  WSAETIMEDOUT: Connection timed out
+COUNTER     2
+
+   在 SAP.Middleware.Connector.CpicConnection.ConnectAsClient(Dictionary`2 options, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnection.ConnectAsClient(RfcDestination destination, Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcConnectionPool..ctor(RfcDestination destination, Boolean forRepositoryCalls)
+   在 SAP.Middleware.Connector.RfcConnectionPool.GetPool(RfcDestination destination, Boolean forRepository, Boolean create)
+   在 SAP.Middleware.Connector.RfcDestination.GetClient(Boolean forRepository)
+   在 SAP.Middleware.Connector.RfcDestination.SetAttributeValues(RfcSystemAttributes attribs)
