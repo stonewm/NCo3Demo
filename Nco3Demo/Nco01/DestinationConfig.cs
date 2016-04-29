@@ -23,7 +23,7 @@ namespace Nco01
                 configParams.Add(RfcConfigParameters.SystemID, "D01");
 
                 configParams.Add(RfcConfigParameters.User, "STONE");
-                configParams.Add(RfcConfigParameters.Password, "tomandjerry");
+                configParams.Add(RfcConfigParameters.Password, "123456");
                 configParams.Add(RfcConfigParameters.Client, "001");
                 configParams.Add(RfcConfigParameters.Language, "EN");
                 configParams.Add(RfcConfigParameters.PoolSize, "5");

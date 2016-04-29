@@ -7,3 +7,12 @@ D:\我的笔记\Notes\SAP笔记\SAP接口编程\03_Nco_3.0\Nco3Demo\NCo03\bin\De
 D:\我的笔记\Notes\SAP笔记\SAP接口编程\03_Nco_3.0\Nco3Demo\NCo03\bin\Debug\Nco02.pdb
 D:\我的笔记\Notes\SAP笔记\SAP接口编程\03_Nco_3.0\Nco3Demo\NCo03\obj\Debug\NCo03.dll
 D:\我的笔记\Notes\SAP笔记\SAP接口编程\03_Nco_3.0\Nco3Demo\NCo03\obj\Debug\NCo03.pdb
+D:\Documents\GitHub\NCo3Demo\Nco3Demo\NCo03\bin\Debug\NCo03.dll
+D:\Documents\GitHub\NCo3Demo\Nco3Demo\NCo03\bin\Debug\NCo03.pdb
+D:\Documents\GitHub\NCo3Demo\Nco3Demo\NCo03\bin\Debug\Nco02.dll
+D:\Documents\GitHub\NCo3Demo\Nco3Demo\NCo03\bin\Debug\sapnco.dll
+D:\Documents\GitHub\NCo3Demo\Nco3Demo\NCo03\bin\Debug\sapnco_utils.dll
+D:\Documents\GitHub\NCo3Demo\Nco3Demo\NCo03\bin\Debug\Nco02.pdb
+D:\Documents\GitHub\NCo3Demo\Nco3Demo\NCo03\obj\Debug\NCo03.csprojResolveAssemblyReference.cache
+D:\Documents\GitHub\NCo3Demo\Nco3Demo\NCo03\obj\Debug\NCo03.dll
+D:\Documents\GitHub\NCo3Demo\Nco3Demo\NCo03\obj\Debug\NCo03.pdb
